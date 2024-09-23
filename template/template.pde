@@ -6,7 +6,8 @@ import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 //
 //Global Variables
-//
+Minim minim;
+int numberOfSongs = 8; //Able to Autodetect based on Pathway
 //void setup ()
 {
   size(900,800)
