@@ -25,10 +25,7 @@ void setup()
   String cycles = "Cycles";
   String eureka = "Eureka";
   String ghostWalk = "Ghost_Walk";
-  String groove = "groove";
-  String newsroom = "Newsroom";
   String startYourEngines = "Start_Your_Engines";
-  String theSimplest = "The_Simplest";
   //
   //Add Reading into Array
   String directory = "../../../" + musicPathway;
