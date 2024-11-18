@@ -18,3 +18,27 @@ float musicButtoSquareX, musicButtonSquareY, musicButtonSquareWidth, musicButton
 float stopx, stopY, stopWidth, stopHeight;
 //
 color blue=#4074CB, yellow=#DCF00C, blue=#5F74F7, yellow=#F7F35F, blue=#0F63D6, yellow=#F1F528;
+color dayForeground=blue, dayHoverover=yellow, dayBackground=blue;
+color darkForeground=yellow, darkHover=blue,darkBackground=yellow;
+color nightForeground=blue, nightHoverover=yellow, nightBackground=blue;
+color appColorForeground, appColorHoverover, appColorBackground;
+color stopButtonHoverover;
+//
+Boolean colorDarkMode=true; //Prefrence: true or false //Future: Build Button for Dark Mode Prefrence
+//
+void setup()
+{
+  size(1000, 800);
+  appWidth = width;
+  appHeight = Height;
+  //Variables for any music button
+  MusicButtonDIV_Width = appWidth*1/2;
+  musicButtonDIV_Height = appHeight*1/
+  musicButtonDIV_X = musicButtonDIV_Width - musicButtonDIV_Width*1/2;
+  musicButtonDIV_Y = musicButton_DIV_Height - musicButtonDIV_Height*1/2;
+  //Use If statement to change, introduce ternary operator
+  //
+  //Population (Variables)
+  //Work out a case study: shorter  side of DIV
+  if (musicButtonDIV_Width >= musicButtonDIV_Height ) { // Landscape //error: square does not go in the middle
+  // musicButtonSquare
