@@ -41,4 +41,21 @@ void setup()
   //Population (Variables)
   //Work out a case study: shorter  side of DIV
   if (musicButtonDIV_Width >= musicButtonDIV_Height ) { // Landscape //error: square does not go in the middle
-  // musicButtonSquare
+  // musicButtonWidth needs to change
+  MusicButtonSquareWidth = musicButtonDIV_Height ;
+  musicButtonSquareHeight = musicButtonDIV_Height ;
+  float padding1 = musicButtonDIV_Width - musicButtonDIV_Height; //working out value needed, with formulae
+  float padding2 = padding*1/2; ////working out value needed, with formulae
+  musicButtonSquareX = musicButtonDIV_X = padding2 ; //note: minus moves it the wrong way, difficult to see
+  musicButtonSquareY = musicButtonDIV_Y;
+  } else {//Portrait
+  // musicButtonHeight needs to change
+  musicButtonSquareWidth = musicButtonDIV_Width ;
+  musicButtonSquareHeight = musicButtonDIV_Width;
+  float padding1 = musicButtonDIV_Height - musicButtonDIV_Width; //working out value needed, with formulae
+  float padding2 = padding1*1/2; ////working out value needed, with formulae
+  musicButtonSquareX = musicmusicButtonDIV_X; //note: minus moves it the wrong way, difficult to see
+  musicButtonSquareY = musicButtonDIV_Y = padding2;
+  }
+  //See case studies and paper folding
+  stopwidth
